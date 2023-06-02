@@ -15,3 +15,10 @@ docker run -v $(pwd):/app chunker
 It will output a file called `your_original_pdf_filename.json` in the current directory. If your PDF filename is `my_pdf.pdf`, then the output file will be `my_pdf.json`.
 
 Make sure the file is in the same folder as this README.md and everything else.
+
+### Example Output
+
+```bash
+Processing my_pdf_file.pdf...
+Finished processing my_pdf_file.pdf in 130 seconds. 3062 chunks created. Output saved to my_pdf_file.json.
+```
